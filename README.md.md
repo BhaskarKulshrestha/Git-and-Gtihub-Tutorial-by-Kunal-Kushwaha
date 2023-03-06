@@ -1,7 +1,48 @@
+- [GIT AND GITHUB TUTORIAL](#git-and-github-tutorial)
+  - [git init](#git-init)
+  - [ls -a :](#ls--a-)
+  - [cat file\_name](#cat-file_name)
+  - [git status](#git-status)
+  - [git add individual\_file\_name](#git-add-individual_file_name)
+  - [git add .](#git-add-)
+  - [git commit -m "\<commit\_message\>"](#git-commit--m-commit_message)
+    - [To exit from the VI editor use:](#to-exit-from-the-vi-editor-use)
+    - [cat.file\_name](#catfile_name)
+    - [git restore --staged Filename](#git-restore---staged-filename)
+  - [git log](#git-log)
+  - [git reset](#git-reset)
+  - [What is meant by stash?](#what-is-meant-by-stash)
+  - [git stash](#git-stash)
+      - [How to reverse back the action of git Stash? ](#how-to-reverse-back-the-action-of-git-stash-)
+  - [git stash pop](#git-stash-pop)
+  - [git stash clear](#git-stash-clear)
+  - [git remote](#git-remote)
+  - [git remote -v](#git-remote--v)
+  - [git remote add origin "path name"](#git-remote-add-origin-path-name)
+  - [create a new repository on the command line](#create-a-new-repository-on-the-command-line)
+  - [git push origin branch\_name](#git-push-origin-branch_name)
+  - [What is branch ?](#what-is-branch-)
+  - [What is head ?](#what-is-head-)
+  - [git branch branch\_name](#git-branch-branch_name)
+  - [git checkout branch\_name](#git-checkout-branch_name)
+  - [git merge  name\_of\_the\_current\_branch](#git-merge--name_of_the_current_branch)
+    - [use : git pull origin main](#use--git-pull-origin-main)
+  - [fork in github](#fork-in-github)
+  - [cloning in github](#cloning-in-github)
+  - [what is upstream URL / upstream repository in github.](#what-is-upstream-url--upstream-repository-in-github)
+  - [what is origin URL / origin repository](#what-is-origin-url--origin-repository)
+  - [what git remote add upstream repository\_link signifies](#what-git-remote-add-upstream-repository_link-signifies)
+    - [NOTE : *it is advised to make a new branch every time whenever you have to add a new feature , because one branch can open only one pull request.*](#note--it-is-advised-to-make-a-new-branch-every-time-whenever-you-have-to-add-a-new-feature--because-one-branch-can-open-only-one-pull-request)
+  - [Removing a commit from the pull request and force pushing to it](#removing-a-commit-from-the-pull-request-and-force-pushing-to-it)
+  - [git fetch --all --prune](#git-fetch---all---prune)
+  - [what is git fetch ?](#what-is-git-fetch-)
+  - [git fetch --all](#git-fetch---all)
+  - [git reset --hard upstream/master](#git-reset---hard-upstreammaster)
+  - [git pull upstream master](#git-pull-upstream-master)
+
 
 
 # GIT AND GITHUB TUTORIAL
-
 Git is the free and open source distributed version control system that's responsible for everything GitHub
 related that happens locally on your computer. This cheat sheet features the most important and commonly
 used Git commands for easy reference.
@@ -233,7 +274,7 @@ fatal: Exiting because of an unresolved conflict.
 ## what is origin URL / origin repository
     It is basically the repository in your own account
 
-## what git remote add upstream https://github.com/Global-Code-Hunters/College-WEBD.git signifies
+## what git remote add upstream repository_link signifies
 
     This command is used to add a new remote repository named "upstream" to a local Git repository.
 
