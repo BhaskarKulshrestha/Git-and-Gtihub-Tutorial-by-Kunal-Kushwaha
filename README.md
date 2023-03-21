@@ -87,6 +87,9 @@ used Git commands for easy reference.
 ### cat.file_name
     Display all the content that is basically present in the file.
 
+### git diff File_name
+    It gives the deiffrences between the changes that are made.
+    
 ### git restore --staged Filename
 
     The "restore" command helps to unstage or even discard uncommitted local changes.
