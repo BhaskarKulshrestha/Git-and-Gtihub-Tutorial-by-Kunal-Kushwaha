@@ -366,8 +366,8 @@ git reset hashid
     So, the command git pull upstream master will fetch any new changes from the upstream/master branch of the remote repository and merge them into the current branch of your local repository. If there are any conflicts between your local changes and the remote changes, Git will prompt you to resolve the conflicts before completing the merge. This command is useful for keeping your local repository up-to-date with the latest changes in the remote repository. 
 
 
-  ## Additional commands
+  ## Additional commands and new learning:
 
-  Commands to remove git but not delete it: git rm --cached <filename>
+  Commands to remove git but not delete it: git rm --cached <filename>  <br>
   Command to remote git and delete: git rm <fielname>
     
